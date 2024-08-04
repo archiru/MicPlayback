@@ -13,7 +13,7 @@ This is a simple audio playback program, that feeds back the audio from any inpu
 
 ### Main window
 <p align="center">
-<img src="https://github.com/archiru/MicPlayback/blob/master/screenshots/mainWindow.png?raw=true" width=50%>
+<img src="https://github.com/archiru/MicPlayback/blob/main/screenshots/mainWindow.png?raw=true" width=50%>
 </p>
 
 ## Why? Doesn't X already exist?
