@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.archiru.micplayback.MicPlaybackController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="148.0" prefWidth="320.0" style="-fx-background-color: #0A1172;">
+         <children>
+            <Label text="Archie's Playback Machine" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="480.0" prefWidth="320.0" spacing="20.0">
+         <children>
+            <Label fx:id="statusText" />
+            <Button fx:id="playbackButton" onAction="#onPlaybackButtonClick" text="Start playback" />
+            <ComboBox fx:id="micComboBox" prefWidth="150.0" promptText="Input Device" />
+            <ComboBox fx:id="outComboBox" prefWidth="150.0" promptText="Output Device" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
